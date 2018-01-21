@@ -1,0 +1,114 @@
+{
+    "site_title": "fondum documentation",
+    "domain": "fondum.info",
+    "copyright": "&copy; Purple Squirrel Productions, LLC.",
+    "rights": "MIT License.",
+    "index_def": "page_example_about",
+    "font": {
+        "external": null,
+        "menu-text": "Verdana, Arial, Helvetica, sans-serif;",
+        "body-text": "Verdana, Arial, Helvetica, sans-serif;"
+    },
+    "color": {
+        "menu-text": "black",
+        "menu-background": "AliceBlue",
+        "footer-text": "black",
+        "footer-background": "AliceBlue",
+        "body-text": "white",
+        "body-background": "DarkGreen",
+        "a-link": "linen",
+        "a-visited": "beige",
+        "a-hover": "linen",
+        "a-active": "linen"
+    },
+    "table_color": {
+        "menu-text": "black",
+        "menu-background": "ivory",
+        "body-text": "gray",
+        "body-background": "ivory",
+        "a-link": "DarkSlateBlue",
+        "a-visited": "DarkSlateGray",
+        "a-hover": "DarkSlateBlue",
+        "a-active": "DarkSlateBlue"
+    },
+    "size": {
+        "menu-text": "14px",
+        "footer-text": "12px"
+    },
+    "menus_left": [
+        {
+            "type": "drop",
+            "title": "About",
+            "submenus": [
+                {
+                    "type": "link",
+                    "title": "All About fondum.info",
+                    "url": "/example/about/"
+                },
+                {
+                    "type": "link",
+                    "title": "Example of All Page Elements",
+                    "url": "/example/example-of-everything/"
+                },
+                {
+                    "type": "link",
+                    "title": "Example Bypass Page",
+                    "url": "/example/special/"
+                },
+                {
+                    "type": "link",
+                    "title": "Example Of The Sendmail Feature",
+                    "url": "/example/example-sendmail/"
+                },
+                {
+                    "type": "link",
+                    "title": "Example Of Flash System",
+                    "url": "/example/flash/"
+                }
+            ]
+        }
+    ],
+    "menus_right": [
+        {
+            "type": "login",
+            "submenus": [
+                {
+                    "type": "link",
+                    "title": "Create New fondum.info Account",
+                    "url": "/account/new/",
+                    "login_required": false
+                },
+                {
+                    "type": "link",
+                    "title": "Login to fondum.info",
+                    "url": "/account/login/",
+                    "login_required": false
+                },
+                {
+                    "type": "link",
+                    "title": "Logout",
+                    "url": "/logout/",
+                    "login_required": true
+                },
+                {
+                    "type": "link",
+                    "title": "ADMIN",
+                    "url": "/admin/main/",
+                    "admin_required": true
+                }
+            ]
+        }
+    ],
+    "footer_links_left": [
+        {
+            "title": "About Us",
+            "url": "/example/about/"
+        }
+    ],
+    "footer_links_right": [
+        {
+            "title": "Special",
+            "url": "/example/special/"
+        }
+    ]
+}
